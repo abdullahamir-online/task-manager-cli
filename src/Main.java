@@ -3,16 +3,19 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Task Manager CLI");
- 
-        showTasks();
 
+        deleteTask();
     }
 
-    public static void showTasks() {
-        System.out.println("Showing tasks...");
+    public static void deleteTask() {
+        System.out.println("Task deleted.");
     }
 
-    
 }
 
 
+
+    
+
+
+ 
